@@ -16,7 +16,7 @@ class Floatp extends Exp
 	TypeVal typeEval(){
 		IO.displayln("----------------floatp       " + floatElem);
 		//OrE.expList = TypeVal.Float;
-	 	Exp.superExpTypeEval(TypeVal.Float);
+	 	//Exp.superExpTypeEval(TypeVal.Float);
 	//return TypeVal.Float;;
 		return TypeVal.Float;
 	}
